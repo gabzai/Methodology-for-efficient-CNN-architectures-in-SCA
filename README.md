@@ -1,5 +1,5 @@
 # Methodology for Efficient CNN Architectures in Profiling Attacks
-The current repository is associated with the article "<a href='...'>Methodology for efficient CNN architectures in Profiling Attacks</a>" available on the <a href='https://eprint.iacr.org/'>eprints</a>
+The current repository is associated with the article "<a href='https://eprint.iacr.org/2019/803'>Methodology for efficient CNN architectures in Profiling Attacks</a>" available on the <a href='https://eprint.iacr.org/'>eprints</a>
 
 
 Each dataset is composed of the following scripts and repositories:
