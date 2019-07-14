@@ -1,0 +1,1 @@
+# Methodology-for-efficient-CNN-architectures-in-SCA
