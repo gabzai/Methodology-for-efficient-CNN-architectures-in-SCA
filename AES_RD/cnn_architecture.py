@@ -68,7 +68,7 @@ def cnn_architecture(input_size=700,learning_rate=0.00001,classes=256):
         return model
 
 #### Training model
-def train_model(X_profiling, Y_profiling, X_test, Y_test, model, save_file_name, epochs=150, batch_size=100, max_lr=max_learning_rate):
+def train_model(X_profiling, Y_profiling, X_test, Y_test, model, save_file_name, epochs=150, batch_size=100, max_lr=1e-3):
     check_file_exists(os.path.dirname(save_file_name))
 
     # Save model every epoch
