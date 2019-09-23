@@ -128,7 +128,7 @@ predictions_folder = root+"model_predictions/"
 nb_epochs = 50
 batch_size = 50
 input_size = 700
-max_learning_rate = 5e-3
+learning_rate = 5e-3
 nb_traces_attacks = 300
 nb_attacks = 100
 real_key = np.load(ASCAD_data_folder + "key.npy")
@@ -156,7 +156,7 @@ X_attack = X_attack.reshape((X_attack.shape[0], X_attack.shape[1], 1))
 #################################################
 
 # Choose your model
-model = cnn_architecture(input_size=input_size, learning_rate=max_learning_rate)
+model = cnn_architecture(input_size=input_size, learning_rate=learning_rate)
 model_name="ASCAD_desync0"
 
 print('\n Model name = '+model_name)
@@ -165,7 +165,7 @@ print('\n Model name = '+model_name)
 print("\n############### Starting Training #################\n")
 
 # Record the metrics
-history = train_model(X_profiling[:45000], Y_profiling[:45000], X_profiling[45000:], Y_profiling[45000:], model, ASCAD_trained_models_folder + model_name, epochs=nb_epochs, batch_size=batch_size, max_lr=max_learning_rate)
+history = train_model(X_profiling[:45000], Y_profiling[:45000], X_profiling[45000:], Y_profiling[45000:], model, ASCAD_trained_models_folder + model_name, epochs=nb_epochs, batch_size=batch_size, max_lr=learning_rate)
 
 
 end=time.time()

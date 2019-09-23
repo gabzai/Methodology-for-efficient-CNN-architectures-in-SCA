@@ -170,7 +170,7 @@ print('\n Model name = '+model_name)
 print("\n############### Starting Training #################\n")
 
 # Record the metrics
-history = train_model(X_profiling[:45000], Y_profiling[:45000], X_profiling[45000:], Y_profiling[45000:], model, ASCAD_trained_models_folder + model_name, epochs=nb_epochs, batch_size=batch_size, max_lr=max_learning_rate)
+history = train_model(X_profiling[:45000], Y_profiling[:45000], X_profiling[45000:], Y_profiling[45000:], model, ASCAD_trained_models_folder + model_name, epochs=nb_epochs, batch_size=batch_size, max_lr=learning_rate)
 
 
 end=time.time()
