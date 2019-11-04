@@ -89,7 +89,7 @@ def train_model(X_profiling, Y_profiling, X_test, Y_test, model, save_file_name,
 
 # Our folders
 root = "./"
-DPAv4_data_folder = root+"DPA_v4_dataset/"
+DPAv4_data_folder = root+"DPAv4_dataset/"
 DPAv4_trained_models_folder = root+"DPAv4_trained_models/"
 history_folder = root+"training_history/"
 predictions_folder = root+"model_predictions/"
