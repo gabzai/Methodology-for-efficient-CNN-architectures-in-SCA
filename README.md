@@ -19,6 +19,36 @@ The trace sets were obtained from publicly databases:
 - <b>ASCAD</b>: https://github.com/ANSSI-FR/ASCAD
 
 
+## Raw data files hashes
+The zip file SHA-256 hash value is:
+<hr>
+
+**AES_HD/AES_HD_dataset.zip:**
+`00a3d02f01bae8c4fcefda33e3d1adb57bed0509ded3cdcf586e213b3d87e41b`
+
+<hr>
+
+**AES_RD/AES_RD_dataset/AES_RD_attack.zip:**
+`379c0e29e7f2b7e24ca2ece40b83200b083d48afabd6eabbb01f8ed38a42ebcf`
+**AES_RD/AES_RD_dataset/AES_RD_profiling.zip:**
+`93a77b83df7e54656fce798c184e4fb4e3cdc5a740758c0432bdb8c7bd58154d`
+
+<hr>
+
+**ASCAD/N=0/ASCAD_dataset.zip:**
+`5f5924e2d0beca5b57fbc48ace137dbb2fe12dd03976aa38f4a699ab21e966b0`
+**ASCAD/N=50/ASCAD_dataset.zip:**
+`9bf704727390a73cf67d3952bc2cacef532b0b62e55f85d615edaa6cd8521f51`
+**ASCAD/N=100/ASCAD_dataset.zip:**
+`2d803db27e58fec3d805cd3cf039b303cad1e0c9ea7a8102a07020bd07113cd9`
+
+<hr>
+
+**DPA-contest v4/DPAv4_dataset.zip:**
+`c42e0626793848ad38634f1765354fbecd9df3fa606ceb593a94febe6ebeda1f`
+
+<hr>
+
 ## Citation
 
 If you use our code, models or wish to refer to our results, please use the following BibTex entry:
