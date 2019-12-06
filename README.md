@@ -1,5 +1,5 @@
 # Methodology for Efficient CNN Architectures in Profiling Attacks
-The current repository is associated with the article "<a href='https://eprint.iacr.org/2019/803'>Methodology for efficient CNN architectures in Profiling Attacks</a>" available on the <a href='https://eprint.iacr.org/'>eprints</a>
+The current repository is associated with the article "<a href='https://tches.iacr.org/index.php/TCHES/article/view/8391'>Methodology for efficient CNN architectures in Profiling Attacks</a>" available on <a href='https://tches.iacr.org/index.php/TCHES/index'>IACR Transactions on Cryptographic Hardware and Embedded Systems (TCHES)</a> and the <a href='https://eprint.iacr.org/'>eprints</a>
 
 
 Each dataset is composed of the following scripts and repositories:
@@ -53,11 +53,16 @@ The zip file SHA-256 hash value is:
 
 If you use our code, models or wish to refer to our results, please use the following BibTex entry:
 ```
-@misc{cryptoeprint:2019:803,
-    author = {Gabriel Zaid and Lilian Bossuet and Amaury Habrard and Alexandre Venelli},
-    title = {Methodology for Efficient CNN Architectures in Profiling Attacks},
-    howpublished = {Cryptology ePrint Archive, Report 2019/803},
-    year = {2019},
-    note = {\url{https://eprint.iacr.org/2019/803}},
+@article{Zaid_Bossuet_Habrard_Venelli_2019, 
+title={Methodology for Efficient CNN Architectures in Profiling Attacks},
+volume={2020},
+url={https://tches.iacr.org/index.php/TCHES/article/view/8391}, 
+DOI={10.13154/tches.v2020.i1.1-36}, 
+number={1}, 
+journal={IACR Transactions on Cryptographic Hardware and Embedded Systems}, 
+author={Zaid, Gabriel and Bossuet, Lilian and Habrard, Amaury and Venelli, Alexandre}, 
+year={2019}, 
+month={Nov.}, 
+pages={1-36} 
 }
 ```
