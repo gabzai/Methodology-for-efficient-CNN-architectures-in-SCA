@@ -141,7 +141,14 @@ start = time.time()
 # Shuffle data
 (X_profiling, Y_profiling) = shuffle_data(X_profiling, Y_profiling)
 
+X_profiling = X_profiling.astype('float32')
+X_attack = X_attack.astype('float32')
+
 #Standardization and Normalization (between 0 and 1)
+scaler = preprocessing.StandardScaler()
+X_profiling = scaler.fit_transform(X_profiling)
+X_attack = scaler.transform(X_attack)
+
 scaler = preprocessing.MinMaxScaler(feature_range=(0,1))
 X_profiling = scaler.fit_transform(X_profiling)
 X_attack = scaler.transform(X_attack)

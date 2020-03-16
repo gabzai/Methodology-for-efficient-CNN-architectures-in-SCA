@@ -150,6 +150,9 @@ start = time.time()
 # Shuffle data
 (X_profiling, Y_profiling) = shuffle_data(X_profiling, Y_profiling)
 
+X_profiling = X_profiling.astype('float32')
+X_attack = X_attack.astype('float32')
+
 X_attack = X_attack.reshape((X_attack.shape[0], X_attack.shape[1], 1))
 
 #################################################
