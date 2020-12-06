@@ -4,7 +4,7 @@ The current repository is associated with the article "<a href='https://tches.ia
 
 Each dataset is composed of the following scripts and repositories:
 - <b>cnn_architecture.py</b>: provides the script in order to train the model introduced in the article,
-- <b>exploit_pred.py</b>: computes the evolution of the right key and saves the resulted picture,
+- <b>exploit_pred.py</b>: computes the evolution of the right key and saves the resulted picture (<b>Credit</b>: Damien Robissout),
 - <b>(Optionnal) clr.py</b>: computes the One-Cycle Policy (see "<a href='https://arxiv.org/abs/1708.07120'>Super-Convergence: Very Fast Training of Neural Networks Using Large Learning Rates
 </a>" and "<a href='https://arxiv.org/abs/1803.09820'>A disciplined approach to neural network hyper-parameters: Part 1 -- learning rate, batch size, momentum, and weight decay</a>,
 - <b>"training_history"</b>: contains information related to the loss function and the accuracy,
